@@ -1,9 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Figtree&family=Glory&family=Marhey&family=Shantell+Sans&family=Signika+Negative&display=swap');
 
-body{
+html{
 background-color: #F5F6FE;
   color:#020422;
 }
@@ -20,7 +19,10 @@ color: #8fd482;
 .custom-underline{
 border-color: #788ae3;
 }
-h1{
+p{
+padding-bottom: 1.5rem;
+}
+h1, h2{
 font-family: 'Comfortaa', cursive;
 }
 .navigate{
@@ -38,18 +40,7 @@ text-align: center;
   background-color: #8fd482;
   width: fit-content;
 }
-input[type=checkbox]{
-}
 a{
 font-family: 'Comfortaa', cursive;
   font-weight: extra-bold;
-}
-#about-check{
-display: none;
-}
-#about{
-display: none;
-}
-#about-check:checked ~ #about{
-   display: block;
 }
