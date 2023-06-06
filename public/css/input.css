@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --blue: #788AE3;
+  --rose: #EFB3DB;
+  --garden:#8FD482 ;
+  --magic: #A495DF;
+}
 html{
 background-color: #F5F6FE;
   color:#020422;
@@ -23,6 +28,7 @@ p{
 padding-bottom: 1.5rem;
 }
 h1, h2{
+
 font-family: 'Comfortaa', cursive;
 }
 .navigate{
@@ -40,7 +46,38 @@ text-align: center;
   background-color: #8fd482;
   width: fit-content;
 }
-a{
+ol a{
 font-family: 'Comfortaa', cursive;
   font-weight: extra-bold;
+}
+
+ul li:nth-child(odd){
+list-style-image: url('../img/bullet-odd.png')
+}
+ul li:nth-child(even){
+list-style-image: url('../img/bullet-even.png')
+}
+
+ul li:nth-child(odd) a{
+  color: var(--blue);
+  text-decoration: underline;
+}
+ul li:nth-child(even) a{
+  color: var(--rose);
+  text-decoration: underline;
+}
+
+ul li li:nth-child(odd){
+list-style-image: url('../img/subbullet-odd.png')
+}
+ul  ul{
+
+  margin-left:2rem;
+}
+ul li li:nth-child(even){
+list-style-image: url('../img/subbullet-even.png');
+}
+
+b{
+color: var(--blue);
 }
