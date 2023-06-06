@@ -52,10 +52,10 @@ font-family: 'Comfortaa', cursive;
 }
 
 ul li:nth-child(odd){
-list-style-image: url('../img/bullet-odd.png')
+list-style-image: url('../img/bullet-odd.svg')
 }
 ul li:nth-child(even){
-list-style-image: url('../img/bullet-even.png')
+list-style-image: url('../img/bullet-even.svg')
 }
 
 ul li:nth-child(odd) a{
@@ -68,14 +68,14 @@ ul li:nth-child(even) a{
 }
 
 ul li li:nth-child(odd){
-list-style-image: url('../img/subbullet-odd.png')
+list-style-image: url('../img/subbullet-odd.svg')
 }
 ul  ul{
 
   margin-left:2rem;
 }
 ul li li:nth-child(even){
-list-style-image: url('../img/subbullet-even.png');
+list-style-image: url('../img/subbullet-even.svg');
 }
 
 b{
